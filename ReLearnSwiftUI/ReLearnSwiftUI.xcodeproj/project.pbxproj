@@ -14,6 +14,7 @@
 		D546AEE12E444CA900672512 /* ReLearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReLearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546AEF82E44576000672512 /* TextExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TextExample; path = ../TextExample; sourceTree = SOURCE_ROOT; };
 		D546AEFC2E447B6900672512 /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
+		D546AF0F2E4496BB00672512 /* ShareComponent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ShareComponent; path = ../ShareComponent; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				D546AEFC2E447B6900672512 /* CLAUDE.md */,
+				D546AF0F2E4496BB00672512 /* ShareComponent */,
 				D546AEF82E44576000672512 /* TextExample */,
 				D546AEE32E444CA900672512 /* ReLearnSwiftUI */,
 				D546AEF92E44585F00672512 /* Frameworks */,

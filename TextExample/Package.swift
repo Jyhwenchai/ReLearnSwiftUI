@@ -13,11 +13,16 @@ let package = Package(
       targets: ["TextExample"]
     )
   ],
+  dependencies: [
+    // Dependencies declare other packages that this package depends on.
+    .package(path: "../ShareComponent")
+  ],
   targets: [
     // Targets are the basic building blocks of a package, defining a module or a test suite.
     // Targets can depend on other targets in this package and products from dependencies.
     .target(
-      name: "TextExample"
+      name: "TextExample",
+      dependencies: ["ShareComponent"]
     )
 
   ]

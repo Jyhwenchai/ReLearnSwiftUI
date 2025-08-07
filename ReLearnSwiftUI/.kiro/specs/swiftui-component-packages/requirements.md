@@ -36,7 +36,7 @@
 
 1. WHEN 新的组件 Package 创建后 THEN 主应用 SHALL 能够导入并展示该 Package 的示例
 2. WHEN 用户打开主应用时 THEN 系统 SHALL 显示所有可用组件的列表
-3. WHEN 用户选择特定组件时 THEN 系统 SHALL 展示该组件的所有示例和说明
+3. WHEN 用户选择特定组件时 THEN 系统 SHALL 展示该组件的所有示例
 4. IF 组件有多个示例时 THEN 系统 SHALL 提供导航方式让用户浏览不同示例
 
 ### 需求 4
