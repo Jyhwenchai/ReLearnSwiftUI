@@ -10,36 +10,36 @@ import SwiftUI
 /// Text 基础文本显示示例
 /// 展示 Text 组件的基本初始化方式和字体样式设置
 struct TextExampleView01: View {
-  
+
   var body: some View {
     ScrollView {
       VStack(alignment: .leading, spacing: 20) {
-        
+
         // MARK: - 基础文本初始化
         VStack(alignment: .leading, spacing: 12) {
           Text("基础文本初始化")
             .font(.headline)
             .foregroundColor(.primary)
-          
+
           // 最简单的文本显示
           Text("Hello, SwiftUI!")
-          
+
           // 使用 verbatim 显示字面量文本（不进行本地化）
           Text(verbatim: "Verbatim Text - 字面量文本")
-          
+
           // 本地化文本（从字符串资源中读取，支持多语言）
           Text("localized.greeting")
         }
         .padding()
         .background(Color.gray.opacity(0.1))
         .cornerRadius(8)
-        
+
         // MARK: - 字体样式设置
         VStack(alignment: .leading, spacing: 12) {
           Text("字体样式")
             .font(.headline)
             .foregroundColor(.primary)
-          
+
           // 系统预定义字体大小
           Group {
             Text("Large Title 样式").font(.largeTitle)
@@ -58,40 +58,40 @@ struct TextExampleView01: View {
         .padding()
         .background(Color.blue.opacity(0.1))
         .cornerRadius(8)
-        
+
         // MARK: - 自定义字体设置
         VStack(alignment: .leading, spacing: 12) {
           Text("自定义字体")
             .font(.headline)
             .foregroundColor(.primary)
-          
+
           // 自定义字体大小和权重
           Text("自定义字体 - 大小24，粗体")
             .font(.system(size: 24, weight: .bold))
-          
+
           // 设置字体设计风格
           Text("Default 设计风格")
             .font(.system(size: 16, design: .default))
-          
+
           Text("Monospaced 等宽设计")
             .font(.system(size: 16, design: .monospaced))
-          
+
           Text("Rounded 圆角设计")
             .font(.system(size: 16, design: .rounded))
-          
+
           Text("Serif 衬线设计")
             .font(.system(size: 16, design: .serif))
         }
         .padding()
         .background(Color.green.opacity(0.1))
         .cornerRadius(8)
-        
+
         // MARK: - 字体权重
         VStack(alignment: .leading, spacing: 12) {
           Text("字体权重")
             .font(.headline)
             .foregroundColor(.primary)
-          
+
           Group {
             Text("Ultra Light 权重").fontWeight(.ultraLight)
             Text("Thin 权重").fontWeight(.thin)
@@ -107,13 +107,13 @@ struct TextExampleView01: View {
         .padding()
         .background(Color.orange.opacity(0.1))
         .cornerRadius(8)
-        
+
         // MARK: - 颜色设置
         VStack(alignment: .leading, spacing: 12) {
           Text("文本颜色")
             .font(.headline)
             .foregroundColor(.primary)
-          
+
           // 系统预定义颜色
           Group {
             Text("Primary 主色").foregroundColor(.primary)
@@ -125,37 +125,41 @@ struct TextExampleView01: View {
             Text("Purple 紫色").foregroundColor(.purple)
             Text("Pink 粉色").foregroundColor(.pink)
           }
-          
+
           // 自定义颜色
           Text("自定义RGB颜色")
             .foregroundColor(Color(red: 0.8, green: 0.2, blue: 0.6))
-          
+
           Text("十六进制颜色")
             .foregroundColor(Color(hex: 0xFF5733))
         }
         .padding()
         .background(Color.purple.opacity(0.1))
         .cornerRadius(8)
-        
+
       }
-      .padding()
+      .frame(maxWidth: .infinity)
+      .padding(.vertical)
     }
+    .frame(maxWidth: .infinity)
     .navigationTitle("基础文本显示")
-    .navigationBarTitleDisplayMode(.inline)
+    #if os(iOS)
+      .navigationBarTitleDisplayMode(.inline)
+    #endif
   }
 }
 
 // MARK: - Color 扩展，支持十六进制颜色
-private extension Color {
-    init(hex: UInt, opacity: Double = 1) {
-        self.init(
-            .sRGB,
-            red: Double((hex >> 16) & 0xff) / 255,
-            green: Double((hex >> 08) & 0xff) / 255,
-            blue: Double((hex >> 00) & 0xff) / 255,
-            opacity: opacity
-        )
-    }
+extension Color {
+  fileprivate init(hex: UInt, opacity: Double = 1) {
+    self.init(
+      .sRGB,
+      red: Double((hex >> 16) & 0xff) / 255,
+      green: Double((hex >> 08) & 0xff) / 255,
+      blue: Double((hex >> 00) & 0xff) / 255,
+      opacity: opacity
+    )
+  }
 }
 
 #Preview {

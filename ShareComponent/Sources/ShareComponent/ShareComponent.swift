@@ -2,6 +2,10 @@
 // https://docs.swift.org/swift-book
 import SwiftUI
 
+#if canImport(UIKit)
+  import UIKit
+#endif
+
 public struct ComponentExample<Content: View>: View {
   let componentTitle: String
   let content: Content
@@ -9,7 +13,7 @@ public struct ComponentExample<Content: View>: View {
     self.componentTitle = componentTitle
     self.content = content()
   }
-  
+
   public var body: some View {
     List {
       // 组件描述
@@ -19,12 +23,12 @@ public struct ComponentExample<Content: View>: View {
           .foregroundColor(.secondary)
       }
       .padding()
-      .background(Color(.systemGray6))
+      .background(Color.gray.opacity(0.1))
       .cornerRadius(12)
       .listRowInsets(EdgeInsets())
       .frame(maxWidth: .infinity, alignment: .center)
       .listRowSeparator(.hidden)
-      
+
       ForEach(subviews: content) { subView in
         subView
           .padding()
@@ -32,7 +36,9 @@ public struct ComponentExample<Content: View>: View {
     }
     .listStyle(.plain)
     .navigationTitle("\(componentTitle)")
-    .navigationBarTitleDisplayMode(.large)
+    #if os(iOS)
+      .navigationBarTitleDisplayMode(.large)
+    #endif
   }
 }
 
