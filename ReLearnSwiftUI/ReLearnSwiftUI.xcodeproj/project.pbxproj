@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D546AEFB2E44585F00672512 /* TextExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AEFA2E44585F00672512 /* TextExample */; };
+		D546AF7B2E45D8D300672512 /* ImageExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AF7A2E45D8D300672512 /* ImageExample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,8 @@
 		D546AF152E45862200672512 /* example.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = example.md; sourceTree = "<group>"; };
 		D546AF172E45862200672512 /* settings.local.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = settings.local.json; sourceTree = "<group>"; };
 		D546AF192E45867100672512 /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
+		D546AF702E45D46800672512 /* ButtonExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ButtonExample; path = ../ButtonExample; sourceTree = SOURCE_ROOT; };
+		D546AF792E45D76900672512 /* ImageExamples */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ImageExamples; path = ../ImageExamples; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D546AEFB2E44585F00672512 /* TextExample in Frameworks */,
+				D546AF7B2E45D8D300672512 /* ImageExample in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,9 +46,11 @@
 		D546AED82E444CA900672512 = {
 			isa = PBXGroup;
 			children = (
+				D546AF792E45D76900672512 /* ImageExamples */,
 				D546AF192E45867100672512 /* CLAUDE.md */,
 				D546AF182E45862200672512 /* .claude */,
 				D546AF0F2E4496BB00672512 /* ShareComponent */,
+				D546AF702E45D46800672512 /* ButtonExample */,
 				D546AEF82E44576000672512 /* TextExample */,
 				D546AEE32E444CA900672512 /* ReLearnSwiftUI */,
 				D546AEF92E44585F00672512 /* Frameworks */,
@@ -105,6 +111,7 @@
 			name = ReLearnSwiftUI;
 			packageProductDependencies = (
 				D546AEFA2E44585F00672512 /* TextExample */,
+				D546AF7A2E45D8D300672512 /* ImageExample */,
 			);
 			productName = ReLearnSwiftUI;
 			productReference = D546AEE12E444CA900672512 /* ReLearnSwiftUI.app */;
@@ -388,6 +395,10 @@
 		D546AEFA2E44585F00672512 /* TextExample */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TextExample;
+		};
+		D546AF7A2E45D8D300672512 /* ImageExample */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImageExample;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

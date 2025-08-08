@@ -5,6 +5,7 @@
 //  Created by didong on 2025/8/7.
 //
 
+import ImageExample
 import SwiftUI
 import TextExample
 
@@ -19,7 +20,13 @@ struct ContentView: View {
       description: "文本显示组件",
       icon: "textformat",
       view: AnyView(TextExample())
-    )
+    ),
+    ComponentInfo(
+      name: "Image",
+      description: "图片显示组件",
+      icon: "photo",
+      view: AnyView(ImageExample())
+    ),
   ]
 
   var body: some View {
