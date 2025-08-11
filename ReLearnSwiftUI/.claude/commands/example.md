@@ -3,6 +3,7 @@
 
 根据用户输入的 $ARGUMENTS 创建对应的 SwiftUI Package，由用户自行导入到项目中。如果Package已经存在，检查相关内容是否完善，不完善则补充相关示例或文档
 
+- 将本次任务的计划写入 Task.md 中
 - 创建新的 Swift Package
   1.创建目录：在 ReLearnSwiftUI/ 下创建一个新目录(注意不是 `ReLearnSwiftUI/ReLearnSwiftUI/` 目录), 名称为 $ARGUMENTS + Example
   2.使用 swift package 命令创建package：进入新建目录执行 swift package init --type library
