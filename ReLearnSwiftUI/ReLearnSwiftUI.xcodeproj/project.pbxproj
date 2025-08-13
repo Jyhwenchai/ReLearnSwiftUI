@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D546AEFB2E44585F00672512 /* TextExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AEFA2E44585F00672512 /* TextExample */; };
 		D546AF7B2E45D8D300672512 /* ImageExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AF7A2E45D8D300672512 /* ImageExample */; };
+		D546AFC52E4C87B400672512 /* ButtonExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AFC42E4C87B400672512 /* ButtonExample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D546AFC52E4C87B400672512 /* ButtonExample in Frameworks */,
 				D546AEFB2E44585F00672512 /* TextExample in Frameworks */,
 				D546AF7B2E45D8D300672512 /* ImageExample in Frameworks */,
 			);
@@ -112,6 +114,7 @@
 			packageProductDependencies = (
 				D546AEFA2E44585F00672512 /* TextExample */,
 				D546AF7A2E45D8D300672512 /* ImageExample */,
+				D546AFC42E4C87B400672512 /* ButtonExample */,
 			);
 			productName = ReLearnSwiftUI;
 			productReference = D546AEE12E444CA900672512 /* ReLearnSwiftUI.app */;
@@ -399,6 +402,10 @@
 		D546AF7A2E45D8D300672512 /* ImageExample */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ImageExample;
+		};
+		D546AFC42E4C87B400672512 /* ButtonExample */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ButtonExample;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

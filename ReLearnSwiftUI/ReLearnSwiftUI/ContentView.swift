@@ -5,6 +5,7 @@
 //  Created by didong on 2025/8/7.
 //
 
+import ButtonExample
 import ImageExample
 import SwiftUI
 import TextExample
@@ -26,6 +27,12 @@ struct ContentView: View {
       description: "图片显示组件",
       icon: "photo",
       view: AnyView(ImageExample())
+    ),
+    ComponentInfo(
+      name: "Button",
+      description: "按钮交互组件",
+      icon: "button.programmable",
+      view: AnyView(ButtonExample())
     ),
   ]
 
