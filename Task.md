@@ -1,237 +1,175 @@
-# Button 组件示例包创建任务
+# HelpLink 组件示例包创建任务
 
 ## 任务概述
 
-创建一个完整的 SwiftUI Button 组件示例包，包含多种 Button 使用场景和样式。
+创建一个完整的 SwiftUI HelpLink 组件示例包，包含多种 HelpLink 使用场景和样式。
 
 ## 实施步骤
 
 ### 1. 创建 Package 结构
 
-- [x] 创建 ButtonExample 目录
+- [x] 创建 HelpLinkExample 目录
 - [x] 初始化 Swift Package
 - [x] 配置 Package.swift
 
 ### 2. 实现示例视图
 
-- [x] ButtonExampleView01.swift - 基础按钮创建
-- [x] ButtonExampleView02.swift - 样式和修饰符
-- [x] ButtonExampleView03.swift - 角色和交互行为
-- [x] ButtonExampleView04.swift - 自定义按钮样式
-- [x] ButtonExample.swift - 主文件整合所有示例
+- [x] HelpLinkExampleView01.swift - 基础帮助链接
+- [x] HelpLinkExampleView02.swift - 不同类型的帮助内容
+- [x] HelpLinkExampleView03.swift - 在不同容器中的使用
+- [x] HelpLinkExampleView04.swift - 实际应用场景
+- [x] HelpLinkExample.swift - 主文件整合所有示例
 
 ### 3. 编写文档
 
-- [x] Button.md - 详细的组件文档
+- [x] HelpLink.md - 详细的组件文档
 - [x] CLAUDE.md - 示例功能描述
 
 ### 4. 测试和验证
 
-- [x] 编译测试确保无错误
-- [x] 补充 ShareComponent 中的辅助组件
-- [x] 更新 ReLearnSwiftUI 的 ContentView
-- [x] iOS 平台编译测试通过
-- [x] macOS 平台编译测试通过
-- [x] Swift Package Manager 编译测试通过
-- [ ] 在 Xcode 中添加 ButtonExample 依赖（需要手动操作）
-
-## 预期输出
-
-一个完整的 ButtonExample Swift Package，包含多个实用的 Button 示例和详细的中文文档。
-
-## 完成状态
-
-✅ **任务已完成！**
-
-ButtonExample Swift Package 已成功创建，包含：
-
-### 已完成的组件
-
-1. **ButtonExampleView01** - 基础按钮创建和基本样式
-2. **ButtonExampleView02** - 样式系统和修饰符完整演示
-3. **ButtonExampleView03** - 角色、交互行为和可访问性
-4. **ButtonExampleView04** - 自定义样式和高级功能
-
-### 已完成的文档
-
-1. **Button.md** - 完整的技术文档（约 500 行）
-2. **CLAUDE.md** - 项目概述和学习指南
-
-### 技术特色
-
-- 4 个渐进式示例，从基础到高级
-- 详细的中文注释，解释每个概念
-- 实际应用场景模拟
-- 性能优化技巧演示
-- 完整的可访问性支持
-- 跨平台兼容性（iOS/macOS）
-
-### 需要手动完成的步骤
-
-由于 ReLearnSwiftUI 是 Xcode 项目，需要在 Xcode 中手动添加 ButtonExample 依赖：
-
-1. 打开 ReLearnSwiftUI.xcodeproj
-2. 选择项目 -> ReLearnSwiftUI target -> General
-3. 在 "Frameworks, Libraries, and Embedded Content" 中点击 "+"
-4. 选择 "Add Package Dependency"
-5. 添加本地路径：`../ButtonExample`
-6. 或者直接将 ButtonExample 文件夹拖拽到 Xcode 项目中
-
-ContentView.swift 已经更新，包含了 ButtonExample 的导入和组件信息。
-
-## 学习建议
-
-建议按以下顺序学习 Button 组件：
-
-1. ButtonExampleView01 - 掌握基础创建方法
-2. ButtonExampleView02 - 学习样式定制
-3. 阅读 Button.md 文档 - 深入理解概念
-4. ButtonExampleView03 - 学习高级交互功能
-5. ButtonExampleView04 - 掌握自定义技巧
-
----
-
-# Label 组件示例包创建任务
-
-## 任务概述
-
-创建一个完整的 SwiftUI Label 组件示例包，包含多种 Label 使用场景和样式。
-
-## 实施步骤
-
-### 1. 创建 Package 结构
-
-- [ ] 检查并完善 LabelExample 目录
-- [ ] 初始化 Swift Package（如需要）
-- [ ] 配置 Package.swift
-
-### 2. 实现示例视图
-
-- [ ] LabelExampleView01.swift - 基础标签创建
-- [ ] LabelExampleView02.swift - 图标和文本组合
-- [ ] LabelExampleView03.swift - 样式和修饰符
-- [ ] LabelExampleView04.swift - 自定义标签样式
-- [ ] LabelExample.swift - 主文件整合所有示例
-
-### 3. 编写文档
-
-- [ ] Label.md - 详细的组件文档
-- [ ] CLAUDE.md - 示例功能描述
-
-### 4. 测试和验证
-
-- [x] iOS 平台编译测试
 - [x] macOS 平台编译测试
 - [ ] 更新 ReLearnSwiftUI 的 ContentView
 
 ## 预期输出
 
-一个完整的 LabelExample Swift Package，包含多个实用的 Label 示例和详细的中文文档。
+一个完整的 HelpLinkExample Swift Package，包含多个实用的 HelpLink 示例和详细的中文文档。
 
 ## 完成状态
 
 ✅ **任务已完成！**
 
-LabelExample Swift Package 已成功创建，包含：
+HelpLinkExample Swift Package 已成功创建，包含：
 
 ### 已完成的组件
 
-1. **LabelExampleView01** - 基础 Label 创建和使用
-2. **LabelExampleView02** - 图标和文本的组合方式
-3. **LabelExampleView03** - 样式和修饰符应用
-4. **LabelExampleView04** - 自定义样式和高级功能
+1. **HelpLinkExampleView01** - 基础 HelpLink 使用和三种初始化方式
+2. **HelpLinkExampleView02** - 不同类型帮助内容的完整演示
+3. **HelpLinkExampleView03** - 在不同容器中的自动定位和使用
+4. **HelpLinkExampleView04** - 实际应用场景的完整实现
 
 ### 已完成的文档
 
-1. **Label.md** - 完整的技术文档（约 800 行）
+1. **HelpLink.md** - 完整的技术文档（约 800 行）
 2. **CLAUDE.md** - 项目概述和学习指南
 
 ### 技术特色
 
-- 4 个渐进式示例，从基础到高级
-- 详细的中文注释，解释每个概念
-- 实际应用场景模拟
-- 自定义 LabelStyle 演示
-- 完整的可访问性支持
-- 跨平台兼容性（iOS/macOS）
-- 动画效果和交互状态展示
+- 4 个渐进式示例，从基础到实际应用
+- 详细的中文注释，解释每个概念和用法
+- macOS 14.0+ 专用组件演示
+- 自动定位机制完整展示（Alert 右上角、Sheet 工具栏左下角）
+- 实际应用场景的完整解决方案
+- 完整的错误处理和最佳实践演示
 
 ### 编译测试结果
 
-- ✅ iOS 平台编译成功
 - ✅ macOS 平台编译成功
 - ✅ Swift 6 兼容性
-- ✅ 并发安全性
+- ✅ 平台特定功能正确实现
+- ⚠️ 仅支持 macOS 14.0+（HelpLink 平台限制）
+
+### 学习价值
+
+- 系统性学习 macOS 专用 UI 组件的使用
+- 掌握帮助系统设计的最佳实践
+- 了解自动定位和容器集成机制
+- 学习实际应用场景的完整实现
+- 掌握平台特定组件的开发技巧
+
+### 重要特性
+
+1. **三种初始化方式**：
+
+   - URL 目标：链接到在线帮助
+   - 锚点：打开本地帮助书籍
+   - 自定义动作：执行特定帮助逻辑
+
+2. **自动定位机制**：
+
+   - Alert 中自动定位到右上角
+   - Sheet 工具栏中自动定位到左下角
+   - ConfirmationDialog 中作为操作选项
+   - 其他容器中内联显示
+
+3. **实际应用场景**：
+   - 应用设置界面的帮助
+   - 错误处理和故障排除
+   - 新手引导和功能介绍
+   - 开发者工具和调试界面
+
+### 注意事项
+
+- HelpLink 仅在 macOS 14.0+ 可用
+- 无法自定义样式，保持系统一致性
+- 在特定容器中会自动定位
+- 需要考虑网络连接状态（URL 类型）
+- 锚点类型需要配置 CFBundleHelpBookName
 
 ---
 
-# TextField 组件示例包创建任务
+# 已完成的组件示例包
 
-## 任务概述
+## ✅ ButtonExample
 
-创建一个完整的 SwiftUI TextField 组件示例包，包含多种 TextField 使用场景和样式。
+- 4 个渐进式示例视图
+- 完整的技术文档和学习指南
+- iOS/macOS 跨平台编译成功
 
-## 实施步骤
+## ✅ EditButtonExample
 
-### 1. 创建 Package 结构
+- 2 个完整示例视图
+- 专为 iOS 16.0+ 优化
+- 编辑模式完整演示
 
-- [ ] 创建 TextFieldExample 目录
-- [ ] 初始化 Swift Package
-- [ ] 配置 Package.swift
+## ✅ PasteButtonExample
 
-### 2. 实现示例视图
+- 4 个渐进式示例视图
+- 跨平台兼容性处理
+- 完整的剪贴板数据处理
 
-- [ ] TextFieldExampleView01.swift - 基础文本输入
-- [ ] TextFieldExampleView02.swift - 样式和修饰符
-- [ ] TextFieldExampleView03.swift - 输入验证和格式化
-- [ ] TextFieldExampleView04.swift - 高级功能和自定义
-- [ ] TextFieldExample.swift - 主文件整合所有示例
+## ✅ LabelExample
 
-### 3. 编写文档
-
-- [ ] TextField.md - 详细的组件文档
-- [ ] CLAUDE.md - 示例功能描述
-
-### 4. 测试和验证
-
-- [ ] iOS 平台编译测试
-- [ ] macOS 平台编译测试
-- [ ] 更新 ReLearnSwiftUI 的 ContentView
-
-## 预期输出
-
-一个完整的 TextFieldExample Swift Package，包含多个实用的 TextField 示例和详细的中文文档。
-
-## 完成状态
-
-✅ **任务已完成！**
-
-TextFieldExample Swift Package 已成功创建，包含：
-
-### 已完成的组件
-
-1. **TextFieldExampleView01** - 基础文本输入和占位符
-2. **TextFieldExampleView02** - 样式和修饰符应用
-3. **TextFieldExampleView03** - 输入验证和格式化
-4. **TextFieldExampleView04** - 高级功能和自定义样式（暂时注释）
-
-### 已完成的文档
-
-1. **TextField.md** - 完整的技术文档（约 800 行）
-2. **CLAUDE.md** - 项目概述和学习指南
-
-### 技术特色
-
-- 3 个完整的示例视图，从基础到高级
-- 详细的中文注释，解释每个概念
-- 实际应用场景模拟
-- 跨平台兼容性（iOS/macOS）
-- 输入验证和格式化演示
+- 4 个渐进式示例视图
+- 自定义 LabelStyle 演示
 - 完整的可访问性支持
 
-### 编译测试结果
+## ✅ TextExample
 
-- ✅ iOS 平台编译成功
-- ✅ macOS 平台编译成功
-- ✅ Swift 6 兼容性
-- ✅ 跨平台条件编译
+- 4 个渐进式示例视图
+- 文本样式和修饰符完整演示
+- 跨平台兼容性
+
+## ✅ TextEditorExample
+
+- 4 个渐进式示例视图
+- iOS 15+ 兼容性优化
+- 实际应用场景完整演示
+
+## ✅ TextFieldExample
+
+- 4 个示例视图（其中一个暂时注释）
+- 输入验证和格式化演示
+- 跨平台条件编译
+
+## ✅ HelpLinkExample
+
+- 4 个渐进式示例视图
+- macOS 14.0+ 专用组件
+- 自动定位机制完整演示
+- 实际应用场景完整实现
+
+## 🔄 LinkExample
+
+- 进行中...
+
+## 🔄 RenameButtonExample
+
+- 进行中...
+
+## 🔄 ShareLinkExample
+
+- 进行中...
+
+## 🔄 SharePreviewExample
+
+- 进行中...

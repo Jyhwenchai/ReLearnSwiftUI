@@ -24,6 +24,18 @@
 		D546AF792E45D76900672512 /* ImageExamples */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ImageExamples; path = ../ImageExamples; sourceTree = SOURCE_ROOT; };
 		D546AFC62E4C8CFA00672512 /* LabelExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LabelExample; path = ../LabelExample; sourceTree = SOURCE_ROOT; };
 		D546AFC92E4D655A00672512 /* TextFieldExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TextFieldExample; path = ../TextFieldExample; sourceTree = SOURCE_ROOT; };
+		D546AFE02E4DDF6300672512 /* TextEditorExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TextEditorExample; path = ../TextEditorExample; sourceTree = SOURCE_ROOT; };
+		D546AFE32E4DDFFE00672512 /* EditButtonExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = EditButtonExample; path = ../EditButtonExample; sourceTree = SOURCE_ROOT; };
+		D546AFE42E4DE07E00672512 /* PasteButtonExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PasteButtonExample; path = ../PasteButtonExample; sourceTree = SOURCE_ROOT; };
+		D546AFE62E4DE3AE00672512 /* RenameButton */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RenameButton; path = ../RenameButton; sourceTree = SOURCE_ROOT; };
+		D546AFE72E4DE3BE00672512 /* LinkExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LinkExample; path = ../LinkExample; sourceTree = SOURCE_ROOT; };
+		D546AFE82E4DE3D100672512 /* ShareLinkExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ShareLinkExample; path = ../ShareLinkExample; sourceTree = SOURCE_ROOT; };
+		D546AFE92E4DE3E900672512 /* SharePreviewExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SharePreviewExample; path = ../SharePreviewExample; sourceTree = SOURCE_ROOT; };
+		D546AFEA2E4DE4A900672512 /* HelpLinkExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HelpLinkExample; path = ../HelpLinkExample; sourceTree = SOURCE_ROOT; };
+		D546AFEB2E4DE50000672512 /* SliderExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SliderExample; path = ../SliderExample; sourceTree = SOURCE_ROOT; };
+		D546AFEC2E4EBAAE00672512 /* StepExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StepExample; path = ../StepExample; sourceTree = SOURCE_ROOT; };
+		D546AFED2E4EBAC100672512 /* ToggleExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ToggleExample; path = ../ToggleExample; sourceTree = SOURCE_ROOT; };
+		D546AFEE2E4EBAD100672512 /* PickerExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PickerExample; path = ../PickerExample; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +64,18 @@
 		D546AED82E444CA900672512 = {
 			isa = PBXGroup;
 			children = (
+				D546AFEE2E4EBAD100672512 /* PickerExample */,
+				D546AFED2E4EBAC100672512 /* ToggleExample */,
+				D546AFEC2E4EBAAE00672512 /* StepExample */,
+				D546AFEB2E4DE50000672512 /* SliderExample */,
+				D546AFEA2E4DE4A900672512 /* HelpLinkExample */,
+				D546AFE92E4DE3E900672512 /* SharePreviewExample */,
+				D546AFE82E4DE3D100672512 /* ShareLinkExample */,
+				D546AFE72E4DE3BE00672512 /* LinkExample */,
+				D546AFE62E4DE3AE00672512 /* RenameButton */,
+				D546AFE42E4DE07E00672512 /* PasteButtonExample */,
+				D546AFE32E4DDFFE00672512 /* EditButtonExample */,
+				D546AFE02E4DDF6300672512 /* TextEditorExample */,
 				D546AFC92E4D655A00672512 /* TextFieldExample */,
 				D546AFC62E4C8CFA00672512 /* LabelExample */,
 				D546AF792E45D76900672512 /* ImageExamples */,

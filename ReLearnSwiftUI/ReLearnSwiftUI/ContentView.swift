@@ -7,6 +7,7 @@
 
 import ButtonExample
 import ImageExample
+import SliderExample
 import SwiftUI
 import TextExample
 
@@ -33,6 +34,12 @@ struct ContentView: View {
       description: "按钮交互组件",
       icon: "button.programmable",
       view: AnyView(ButtonExample())
+    ),
+    ComponentInfo(
+      name: "Slider",
+      description: "滑块选择组件",
+      icon: "slider.horizontal.3",
+      view: AnyView(SliderExample())
     ),
   ]
 
