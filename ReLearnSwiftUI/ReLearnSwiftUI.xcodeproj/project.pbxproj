@@ -11,6 +11,7 @@
 		D546AF7B2E45D8D300672512 /* ImageExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AF7A2E45D8D300672512 /* ImageExample */; };
 		D546AFC52E4C87B400672512 /* ButtonExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AFC42E4C87B400672512 /* ButtonExample */; };
 		D546AFC82E4C933900672512 /* LabelExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AFC72E4C933900672512 /* LabelExample */; };
+		D546B0142E4F099B00672512 /* SliderExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546B0132E4F099B00672512 /* SliderExample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +34,7 @@
 		D546AFE92E4DE3E900672512 /* SharePreviewExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SharePreviewExample; path = ../SharePreviewExample; sourceTree = SOURCE_ROOT; };
 		D546AFEA2E4DE4A900672512 /* HelpLinkExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HelpLinkExample; path = ../HelpLinkExample; sourceTree = SOURCE_ROOT; };
 		D546AFEB2E4DE50000672512 /* SliderExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SliderExample; path = ../SliderExample; sourceTree = SOURCE_ROOT; };
-		D546AFEC2E4EBAAE00672512 /* StepExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StepExample; path = ../StepExample; sourceTree = SOURCE_ROOT; };
+		D546AFEC2E4EBAAE00672512 /* StepperExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StepperExample; path = ../StepperExample; sourceTree = SOURCE_ROOT; };
 		D546AFED2E4EBAC100672512 /* ToggleExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ToggleExample; path = ../ToggleExample; sourceTree = SOURCE_ROOT; };
 		D546AFEE2E4EBAD100672512 /* PickerExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PickerExample; path = ../PickerExample; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -52,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D546AFC82E4C933900672512 /* LabelExample in Frameworks */,
+				D546B0142E4F099B00672512 /* SliderExample in Frameworks */,
 				D546AFC52E4C87B400672512 /* ButtonExample in Frameworks */,
 				D546AEFB2E44585F00672512 /* TextExample in Frameworks */,
 				D546AF7B2E45D8D300672512 /* ImageExample in Frameworks */,
@@ -66,7 +68,7 @@
 			children = (
 				D546AFEE2E4EBAD100672512 /* PickerExample */,
 				D546AFED2E4EBAC100672512 /* ToggleExample */,
-				D546AFEC2E4EBAAE00672512 /* StepExample */,
+				D546AFEC2E4EBAAE00672512 /* StepperExample */,
 				D546AFEB2E4DE50000672512 /* SliderExample */,
 				D546AFEA2E4DE4A900672512 /* HelpLinkExample */,
 				D546AFE92E4DE3E900672512 /* SharePreviewExample */,
@@ -146,6 +148,7 @@
 				D546AF7A2E45D8D300672512 /* ImageExample */,
 				D546AFC42E4C87B400672512 /* ButtonExample */,
 				D546AFC72E4C933900672512 /* LabelExample */,
+				D546B0132E4F099B00672512 /* SliderExample */,
 			);
 			productName = ReLearnSwiftUI;
 			productReference = D546AEE12E444CA900672512 /* ReLearnSwiftUI.app */;
@@ -441,6 +444,10 @@
 		D546AFC72E4C933900672512 /* LabelExample */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LabelExample;
+		};
+		D546B0132E4F099B00672512 /* SliderExample */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SliderExample;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

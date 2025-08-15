@@ -7,7 +7,11 @@ struct CrossPlatformNavigationTitle: ViewModifier {
 
   func body(content: Content) -> some View {
     #if os(iOS)
+    if #available(iOS 14.0, *) {
       content.navigationBarTitle(title, displayMode: .inline)
+    } else {
+        // Fallback on earlier versions
+    }
     #elseif os(macOS)
       if #available(macOS 11.0, *) {
         content.navigationTitle(title)

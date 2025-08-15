@@ -35,12 +35,6 @@ struct ContentView: View {
       icon: "button.programmable",
       view: AnyView(ButtonExample())
     ),
-    ComponentInfo(
-      name: "Slider",
-      description: "滑块选择组件",
-      icon: "slider.horizontal.3",
-      view: AnyView(SliderExample())
-    ),
   ]
 
   var body: some View {
