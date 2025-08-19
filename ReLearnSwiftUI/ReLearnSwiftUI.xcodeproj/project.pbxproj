@@ -12,6 +12,8 @@
 		D546AFC52E4C87B400672512 /* ButtonExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AFC42E4C87B400672512 /* ButtonExample */; };
 		D546AFC82E4C933900672512 /* LabelExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546AFC72E4C933900672512 /* LabelExample */; };
 		D546B0142E4F099B00672512 /* SliderExample in Frameworks */ = {isa = PBXBuildFile; productRef = D546B0132E4F099B00672512 /* SliderExample */; };
+		D546B01D2E544DD900672512 /* TestEx in Frameworks */ = {isa = PBXBuildFile; productRef = D546B01C2E544DD900672512 /* TestEx */; };
+		D546B02B2E545BC800672512 /* TestEx in Frameworks */ = {isa = PBXBuildFile; productRef = D546B02A2E545BC800672512 /* TestEx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,7 @@
 		D546B0162E532A7C00672512 /* MultiDatePickerExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MultiDatePickerExample; path = ../MultiDatePickerExample; sourceTree = SOURCE_ROOT; };
 		D546B0172E532D0700672512 /* MenuExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MenuExample; path = ../MenuExample; sourceTree = SOURCE_ROOT; };
 		D546B0182E54021B00672512 /* CommandMenuExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CommandMenuExample; path = ../CommandMenuExample; sourceTree = SOURCE_ROOT; };
+		D546B0252E54570D00672512 /* WARP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = WARP.md; path = ../WARP.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -59,6 +62,8 @@
 				D546AFC82E4C933900672512 /* LabelExample in Frameworks */,
 				D546B0142E4F099B00672512 /* SliderExample in Frameworks */,
 				D546AFC52E4C87B400672512 /* ButtonExample in Frameworks */,
+				D546B01D2E544DD900672512 /* TestEx in Frameworks */,
+				D546B02B2E545BC800672512 /* TestEx in Frameworks */,
 				D546AEFB2E44585F00672512 /* TextExample in Frameworks */,
 				D546AF7B2E45D8D300672512 /* ImageExample in Frameworks */,
 			);
@@ -70,6 +75,7 @@
 		D546AED82E444CA900672512 = {
 			isa = PBXGroup;
 			children = (
+				D546B0252E54570D00672512 /* WARP.md */,
 				D546B0182E54021B00672512 /* CommandMenuExample */,
 				D546B0172E532D0700672512 /* MenuExample */,
 				D546B0162E532A7C00672512 /* MultiDatePickerExample */,
@@ -157,6 +163,8 @@
 				D546AFC42E4C87B400672512 /* ButtonExample */,
 				D546AFC72E4C933900672512 /* LabelExample */,
 				D546B0132E4F099B00672512 /* SliderExample */,
+				D546B01C2E544DD900672512 /* TestEx */,
+				D546B02A2E545BC800672512 /* TestEx */,
 			);
 			productName = ReLearnSwiftUI;
 			productReference = D546AEE12E444CA900672512 /* ReLearnSwiftUI.app */;
@@ -456,6 +464,14 @@
 		D546B0132E4F099B00672512 /* SliderExample */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SliderExample;
+		};
+		D546B01C2E544DD900672512 /* TestEx */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TestEx;
+		};
+		D546B02A2E545BC800672512 /* TestEx */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TestEx;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
