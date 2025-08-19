@@ -7,7 +7,7 @@
 - 创建新的 Swift Package
   1.创建目录：在 ReLearnSwiftUI/ 下创建一个新目录(注意不是 `ReLearnSwiftUI/ReLearnSwiftUI/` 目录), 名称为 $ARGUMENTS + Example
   2.使用 swift package 命令创建package：进入新建目录执行 swift package init --type library
-  3.根据官方文档 [Text](https://developer.apple.com/documentation/swiftui/$ARGUMENTS) 提供适当的示例视图,示例视图结构清晰易于阅读
+  3.根据官方文档 [Text](https://developer.apple.com/documentation/swiftui/$ARGUMENTS) 提供适当的示例视图,示例视图结构清晰易于阅读,仅支持iOS18、MacOS15以上系统版本
   4.示例完成后必须进行编译以确保没有任何错误, 编译命令：swift build --target packagename
   5.补充 `ReLearnSwiftUI` 的 `ContentView` 中的 `components` 属性，完善示例
 - 为每个示例添加详细的中文注释，解释每行代码的作用和 SwiftUI 概念
@@ -21,7 +21,7 @@
 TextExample/
 ├── Package.swift               
 ├── Sources
-│   ├── TextExample.swift        # 主文件，引用所有相关示例
+│   ├── TextExample.swift        # 主文件，包含后面创建的所有相关示例
 │   ├── TextExampleView01.swift  # 示例1
 │   ├── TextExampleView02.swift  # 示例2，按需创建
 │   └── TextExampleView03.swift  # 示例3，按需创建

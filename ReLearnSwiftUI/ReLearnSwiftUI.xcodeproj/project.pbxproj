@@ -37,6 +37,10 @@
 		D546AFEC2E4EBAAE00672512 /* StepperExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StepperExample; path = ../StepperExample; sourceTree = SOURCE_ROOT; };
 		D546AFED2E4EBAC100672512 /* ToggleExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ToggleExample; path = ../ToggleExample; sourceTree = SOURCE_ROOT; };
 		D546AFEE2E4EBAD100672512 /* PickerExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PickerExample; path = ../PickerExample; sourceTree = SOURCE_ROOT; };
+		D546B0152E531ABD00672512 /* DatePickerExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DatePickerExample; path = ../DatePickerExample; sourceTree = SOURCE_ROOT; };
+		D546B0162E532A7C00672512 /* MultiDatePickerExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MultiDatePickerExample; path = ../MultiDatePickerExample; sourceTree = SOURCE_ROOT; };
+		D546B0172E532D0700672512 /* MenuExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MenuExample; path = ../MenuExample; sourceTree = SOURCE_ROOT; };
+		D546B0182E54021B00672512 /* CommandMenuExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CommandMenuExample; path = ../CommandMenuExample; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -66,6 +70,10 @@
 		D546AED82E444CA900672512 = {
 			isa = PBXGroup;
 			children = (
+				D546B0182E54021B00672512 /* CommandMenuExample */,
+				D546B0172E532D0700672512 /* MenuExample */,
+				D546B0162E532A7C00672512 /* MultiDatePickerExample */,
+				D546B0152E531ABD00672512 /* DatePickerExample */,
 				D546AFEE2E4EBAD100672512 /* PickerExample */,
 				D546AFED2E4EBAC100672512 /* ToggleExample */,
 				D546AFEC2E4EBAAE00672512 /* StepperExample */,
@@ -349,10 +357,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = czwpro.ReLearnSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,10 +396,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = czwpro.ReLearnSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
