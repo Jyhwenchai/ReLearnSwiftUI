@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D51373362E5862E800F6AB14 /* RectangleExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RectangleExample; path = ../RectangleExample; sourceTree = SOURCE_ROOT; };
 		D546AEE12E444CA900672512 /* ReLearnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReLearnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546AEF82E44576000672512 /* TextExample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TextExample; path = ../TextExample; sourceTree = SOURCE_ROOT; };
 		D546AF0F2E4496BB00672512 /* ShareComponent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ShareComponent; path = ../ShareComponent; sourceTree = SOURCE_ROOT; };
@@ -75,6 +76,7 @@
 		D546AED82E444CA900672512 = {
 			isa = PBXGroup;
 			children = (
+				D51373362E5862E800F6AB14 /* RectangleExample */,
 				D546B0252E54570D00672512 /* WARP.md */,
 				D546B0182E54021B00672512 /* CommandMenuExample */,
 				D546B0172E532D0700672512 /* MenuExample */,
